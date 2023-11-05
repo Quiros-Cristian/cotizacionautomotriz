@@ -6,8 +6,6 @@ function solicitarNombreDeUsuario() {
     alert(devolucion);
 }
 
-solicitarNombreDeUsuario();
-
 
 let vehiculo = prompt("¿Cual es la marca de su vehiculo? volkswagen/chevrolet/ford")
 
