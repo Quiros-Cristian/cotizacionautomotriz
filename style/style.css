@@ -36,6 +36,15 @@ main {
     background-color: cadetblue;
 }
 
+h1 {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 50px;
+    text-align: center;
+}
 
 /*estilos footer*/
 
