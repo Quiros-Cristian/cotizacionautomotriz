@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*estilos header*/
+header {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color: bisque;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul { 
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+/*estilos principales*/
+main {
+    height: 70vh;
+    background-color: cadetblue;
+}
+
+
+/*estilos footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 15vh;
+    background-color: whitesmoke;
+}
