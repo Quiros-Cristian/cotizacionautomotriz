@@ -112,7 +112,16 @@ do {
     continuar = prompt("¿desea realizar una nueva cotizacion? SI/NO");
 } while (continuar === "si");
 
+const botonDark = document.getElementById("botonDark");
 
+botonDark.addEventListener("click", ()=>{
+    document.body.classList.toggle("dark");
+    if(documentbody.classList.contains("dark")){
+        localStorage.setItem("modo","dark");
+    }else{
+        localStorage.setItem("modo","claro")
+    }
+})
 
 
 
